@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav>
+      <div class="logo">iTrustLD</div>
+      <input type="checkbox" id="click" class="nav-check" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    <!-- navbar ends -->
+    <!-- login section begins -->
+    <div
+      class="container flex-column h-100 d-flex align-items-center justify-content-center dark"
+    >
+      <div class="wrapper">
+        <div class="title">LOGIN</div>
+        <form action="#">
+          <div class="signup-link">
+            Not a member? <a href="signup.html">Signup now</a>
+          </div>
+          <div class="field">
+            <input type="text" required />
+            <label>Email Address</label>
+          </div>
+          <div class="field">
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="terms" />
+            <label for="terms" class="signup-link terms-link"
+              >I accept the <a href="#">Terms and Conditions</a></label
+            >
+          </div>
+          <div class="field">
+            <input id="loginBtn" type="submit" value="Login" />
+          </div>
+          <div class="forgot mt-4 d-flex justify-content-center w-100">
+            <div class="pass-link"><a href="#">Forgot your password?</a></div>
+          </div>
+        </form>
+      </div>
+      <div class="Privacy d-flex justify-content-between mt-4">
+        <a href="#" class="privacy-link mr-3">Privacy Policy |&nbsp;</a>
+        <a href="#" class="privacy-link">Cookie Policy</a>
+      </div>
+    </div>
+    <!-- login section ends -->
+    <!-- footer starts -->
+    <div class="footer">
+      iTrustLD ©
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </div>
+    <!-- footer ends -->
+  </body>
+</html>
