@@ -1,189 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>signup</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <script src="assets/scripts/script.js"></script>
-    <link rel="stylesheet" href="assets/styles/intlTelInput.css" />
-    <script src="assets/scripts/intlTelInput.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"
-    />
-    <!-- <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
-  </head>
-  <body>
-    <!-- navbar starts -->
-    <nav>
-      <div class="logo"><img src="#" alt="" /></div>
-      <input type="checkbox" id="click" class="nav-check" />
-      <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a class="active" href="#">Account</a></li>
-        <li><a href="#">Deposit</a></li>
-        <li><a href="#">Withdrawal</a></li>
-        <li><a href="#">Loyality</a></li>
-        <li><a href="#">Verification</a></li>
-        <li><a href="#">Help</a></li>
-      </ul>
-    </nav>
-    <!-- navbar ends -->
-    <!-- signup form begins -->
-    <div
-      class="container flex-column h-100 d-flex align-items-center justify-content-center dark"
-    >
-      <div class="wrapper">
-        <div class="title">SIGN UP</div>
-        <form action="#">
-          <div class="signup-link">
-            Already Registered? <a href="login.html">Login Here</a>
-          </div>
-          <div class="field">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>iTrustLD</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Image-Uploader.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="firstContainer">
+    <div class="container firstContainer">
+        <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-md-6 d-flex justify-content-center align-items-start"><img class="verified-man" src="assets/img/Account.gif"></div>
+            <div class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center">
+                <form class="loginDiv">
+                    <h1 class="text-uppercase text-center text-white login-heading">Signup</h1>
+                    <p class="text-white loginPara signup-link">Already Registered?&nbsp;<a class="loginLink" href="login.html">Login Now</a></p><div>
+<div class="field">
             <input type="text" required />
             <label>First Name</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="text" required />
             <label>Last Name</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="text" required />
             <label>Email Address</label>
           </div>
-
-          <input id="phone" type="tel" name="phone" />
-
-          <div class="field">
-            <input id="nextBtn" type="submit" value="Next" />
+</div><div>
+<div class="field">
+            <input type="text" required />
+            <label>Country</label>
           </div>
-        </form>
-
-        <form action="#" id="form2">
-          <div class="signup-link">
-            Already Registered? <a href="login-new.html">Login Here</a>
+</div><div>
+<div class="field">
+            <input type="text" required />
+            <label>Phone Number</label>
           </div>
-          <div class="d-flex flex-column flex-md-column flex-lg-row">
-            <div class="field">
-              <select class="dob" name="birthDate" id="birthDate" required>
-                <option value="birthDate">Birth Date</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="2">3</option>
-                <option value="2">4</option>
-                <option value="2">5</option>
-                <option value="2">6</option>
-                <option value="2">7</option>
-                <option value="2">8</option>
-                <option value="2">9</option>
-                <option value="2">10</option>
-                <option value="2">11</option>
-                <option value="2">12</option>
-                <option value="2">13</option>
-                <option value="2">14</option>
-                <option value="2">15</option>
-                <option value="2">16</option>
-                <option value="2">17</option>
-                <option value="2">18</option>
-                <option value="2">19</option>
-                <option value="2">20</option>
-                <option value="2">21</option>
-                <option value="2">22</option>
-                <option value="2">23</option>
-                <option value="2">24</option>
-                <option value="2">25</option>
-                <option value="2">26</option>
-                <option value="2">27</option>
-                <option value="2">28</option>
-                <option value="2">29</option>
-                <option value="2">30</option>
-                <option value="2">31</option>
-              </select>
-            </div>
-            <div class="field">
-              <select class="dob" name="birthMonth" id="birthMonth" required>
-                <option value="birthMonth">Birth Month</option>
-                <option value="jan">January</option>
-                <option value="feb">February</option>
-                <option value="mar">March</option>
-                <option value="apr">April</option>
-                <option value="may">May</option>
-                <option value="jun">june</option>
-                <option value="jul">July</option>
-                <option value="aug">August</option>
-                <option value="sep">September</option>
-                <option value="oct">October</option>
-                <option value="nov">November</option>
-                <option value="dec">December</option>
-              </select>
-            </div>
-            <div class="field">
-              <select class="dob" name="birthYear" id="birthYear" required>
-                <option value="birthMonth">Birth Year</option>
-                <option value="2000">2000</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="field">
+</div><button class="btn btn-danger loginButton w-100" type="button">NEXT</button>
+                    <p class="text-white loginPara mt-5 text-secondary">&nbsp;<a class="loginLink" href="privacy-policy.html">Privacy Policy&nbsp;</a>&nbsp; |&nbsp;&nbsp;<a class="loginLink" href="cookie-policy.html">Cookie Policy&nbsp;</a></p>
+                </form>
+                <form class="loginDiv">
+                    <h1 class="text-uppercase text-center text-white login-heading">Signup</h1>
+                    <p class="text-white loginPara signup-link">Already Registered?&nbsp;<a class="loginLink" href="login.html">Login Now</a></p>
+                    <div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row field"><select class="bg-dark form-select signupSelect mx-1">
+                            <option value="12" selected="">Birth Date</option>
+                            <option value="13">1</option>
+                            <option value="14">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select><select class="form-select signupSelect">
+                            <option value="12" selected="">Birth Month</option>
+                            <option value="13">January</option>
+                            <option value="14">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select><select class="form-select signupSelect mx-1">
+                            <option value="12" selected="">Birth Year</option>
+                        </select></div><div>
+<div class="field">
             <input type="text" required />
             <label>City / Town</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="text" required />
-            <label>Street number</label>
+            <label>Street Number</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="text" required />
             <label>Residential Address</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="text" required />
             <label>Zip Code</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="password" required />
-            <label>Enter password</label>
+            <label>Password</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="password" required />
-            <label>Confirm password</label>
+            <label>Confirm Password</label>
           </div>
-          <div class="checkbox">
-            <input type="checkbox" id="terms" />
-            <label for="terms" class="signup-link terms-link"
-              >I accept the <a href="#">Terms and Conditions</a></label
-            >
-          </div>
-
-          <div class="field">
-            <input id="nextBtn" type="submit" value="Next" />
-          </div>
-        </form>
-      </div>
-      <div class="Privacy d-flex justify-content-between mt-4">
-        <a href="#" class="privacy-link mr-3">Privacy Policy |&nbsp;</a>
-        <a href="#" class="privacy-link">Cookie Policy</a>
-      </div>
+</div>
+                    <p class="loginTermsPara text-white"><input type="checkbox">&nbsp;I accept&nbsp;<a class="loginLink" href="terms-and-conditions.html">Terms and Conditions</a></p><button class="btn btn-danger loginButton w-100" type="button">SIGN UP</button>
+                    <p class="text-white loginPara mt-5 text-secondary">&nbsp;<a class="loginLink" href="privacy-policy.html">Privacy Policy&nbsp;</a>&nbsp; |&nbsp;&nbsp;<a class="loginLink" href="cookie-policy.html">Cookie Policy&nbsp;</a></p>
+                </form>
+            </div>
+        </div>
     </div>
-    <!-- signup form ends -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Bootstrap-Image-Uploader.js"></script>
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="assets/js/tel.js"></script>
+</body>
 
-    <script>
-      var input = document.querySelector("#phone");
-      window.intlTelInput(input, {
-        separateDialCode: true,
-        preferredCountries: ["lk", "us"],
-      });
-    </script>
-  </body>
 </html>

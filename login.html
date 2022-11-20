@@ -1,80 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- navbar starts -->
-    <nav>
-      <div class="logo">iTrustLD</div>
-      <input type="checkbox" id="click" class="nav-check" />
-      <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Feedback</a></li>
-      </ul>
-    </nav>
-    <!-- navbar ends -->
-    <!-- login section begins -->
-    <div
-      class="container flex-column h-100 d-flex align-items-center justify-content-center dark"
-    >
-      <div class="wrapper">
-        <div class="title">LOGIN</div>
-        <form action="#">
-          <div class="signup-link">
-            Not a member? <a href="signup.html">Signup now</a>
-          </div>
-          <div class="field">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>iTrustLD</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Image-Uploader.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="firstContainer">
+    <div class="container firstContainer">
+        <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center"><img class="verified-man" src="assets/img/Account.gif"></div>
+            <div class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center">
+                <form class="loginDiv">
+                    <h1 class="text-uppercase text-center text-white login-heading">Login</h1>
+                    <p class="text-white loginPara signup-link">Not a member?&nbsp;<a class="loginLink" href="signup.html">Signup Now</a></p><div>
+<div class="field">
             <input type="text" required />
             <label>Email Address</label>
           </div>
-          <div class="field">
+</div><div>
+<div class="field">
             <input type="password" required />
             <label>Password</label>
           </div>
-          <div class="checkbox">
-            <input type="checkbox" id="terms" />
-            <label for="terms" class="signup-link terms-link"
-              >I accept the <a href="#">Terms and Conditions</a></label
-            >
-          </div>
-          <div class="field">
-            <input id="loginBtn" type="submit" value="Login" />
-          </div>
-          <div class="forgot mt-4 d-flex justify-content-center w-100">
-            <div class="pass-link"><a href="#">Forgot your password?</a></div>
-          </div>
-        </form>
-      </div>
-      <div class="Privacy d-flex justify-content-between mt-4">
-        <a href="#" class="privacy-link mr-3">Privacy Policy |&nbsp;</a>
-        <a href="#" class="privacy-link">Cookie Policy</a>
-      </div>
+</div>
+                    <p class="loginTermsPara text-white"><input type="checkbox">&nbsp;I accept&nbsp;<a class="loginLink" href="terms-and-conditions.html">Terms and Conditions</a></p><button class="btn btn-danger loginButton w-100" type="button">LOGIN</button>
+                    <p class="text-white loginPara">&nbsp;<a class="loginLink" href="forgot-password.html">Forgot Your Password?&nbsp;</a></p>
+                    <p class="text-white loginPara mt-5 text-secondary">&nbsp;<a class="loginLink" href="privacy-policy.html">Privacy Policy&nbsp;</a>&nbsp; |&nbsp;&nbsp;<a class="loginLink" href="cookie-policy.html">Cookie Policy&nbsp;</a></p>
+                </form>
+            </div>
+        </div>
     </div>
-    <!-- login section ends -->
-    <!-- footer starts -->
-    <div class="footer">
-      iTrustLD ©
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-    </div>
-    <!-- footer ends -->
-  </body>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Bootstrap-Image-Uploader.js"></script>
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="assets/js/tel.js"></script>
+</body>
+
 </html>
