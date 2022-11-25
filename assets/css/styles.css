@@ -235,3 +235,9 @@ field input:focus, .field input:valid {
   margin-top: 10px;
 }
 
+/* Account */
+
+.accountHeading {
+  font-size: 44px;
+}
+
