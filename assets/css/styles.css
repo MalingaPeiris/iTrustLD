@@ -241,3 +241,37 @@ field input:focus, .field input:valid {
   font-size: 44px;
 }
 
+/* index */
+
+.tutorialThumbnail {
+  border-radius: 10px;
+  max-width: 400px;
+  min-width: 250px;
+  width: 100%;
+}
+
+.headingContainer {
+  margin-top: 100px;
+}
+
+.whyImage {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.subTopic {
+  font-size: 32px;
+}
+
+.imageSection {
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(180deg, #252525, rgba(27,27,27,0.9159420289855073) 44%, rgba(0,0,0,0.7)) center / cover no-repeat fixed, url("../../assets/img/download%20(2).jpg") center / cover no-repeat fixed;
+}
+
+.indexContainer {
+  margin-top: 100px;
+}
+
