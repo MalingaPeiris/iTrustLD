@@ -256,13 +256,14 @@ field input:focus, .field input:valid {
 
 .whyImage {
   width: 100%;
-  height: 500px;
+  height: 600px;
   border-radius: 10px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .subTopic {
-  font-size: 32px;
+  font-size: 44px;
+  font-weight: 700;
 }
 
 .imageSection {
@@ -272,6 +273,18 @@ field input:focus, .field input:valid {
 }
 
 .indexContainer {
-  margin-top: 100px;
+  margin-top: 150px;
+}
+
+.homeSubTopics {
+  font-weight: bold;
+  font-family: Allerta, sans-serif;
+  font-size: 52px;
+  color: var(--bs-white);
+}
+
+.bottomContainer {
+  background: url("../../assets/img/wave.svg");
+  height: 300px;
 }
 
