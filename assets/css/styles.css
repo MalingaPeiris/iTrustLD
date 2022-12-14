@@ -428,6 +428,7 @@ field input:focus, .field input:valid {
   }
 }
 
+<<<<<<< HEAD
 /* Transcation history */
 
 .historyMainDiv {
@@ -451,3 +452,5 @@ field input:focus, .field input:valid {
   }
 }
 
+=======
+>>>>>>> e598155122d236a2c8a951dc780a8993ffa7420e
