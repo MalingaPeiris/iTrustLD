@@ -20,29 +20,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md text-light bg-dark text-uppercase text-start navigation-clean">
-        <div class="container"><a class="navbar-brand" href="#">iTrustLD</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon text-danger fw-bold"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Deposit</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Withdrawal</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Loyalty</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Verification</a></li>
-                    <li class="nav-item"><a class="btn btn-danger" role="button" href="login.html">LOGIN</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container d-flex flex-column justify-content-center align-items-center docVerifyContainer p-3 my-5 firstContainer">
-        <div class="row w-100">
-            <div class="col-12 w-100">
-                <h1 class="text-start text-white fw-bold">Terms and Conditions</h1>
-                <hr class="text-danger">
-                <h2 class="text-white">Heading 01</h2>
-                <p class="text-white-50 fw-bold">Paragraph</p>
-                <h2 class="text-white">Heading 01</h2>
-                <p class="text-white-50 fw-bold">Paragraph</p>
+    <div class="container firstContainer loyaltyContainer">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center text-white">Hi&nbsp;<span class="text-danger">&lt;UserName&gt;</span></h1>
+                <h2 class="text-center text-white">You Have</h2>
+                <div>
+                    <p class="text-center text-success counter">000</p>
+                </div>
+                <p class="text-center text-white fw-bold fs-5">Loyalty Points</p>
+                <p class="text-center text-danger">You have reached the maximum of 100 Loyalty Points</p>
+                <div class="d-flex justify-content-center"><a class="btn btn-danger fw-bold my-4" role="button" href="withdraw.html">Withdraw Now</a></div>
+                <p class="text-center text-white">Loyalty Points Description</p>
             </div>
         </div>
     </div>
