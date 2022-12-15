@@ -465,3 +465,10 @@ field input:focus, .field input:valid {
   font-size: 14px;
 }
 
+.termsDiv {
+  border-radius: 10px;
+  border: 1px solid rgb(128,130,132) ;
+  height: 200px;
+  overflow-y: scroll;
+}
+
