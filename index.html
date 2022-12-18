@@ -19,11 +19,19 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-    <div class="container-fluid">
+<body><div class="cursor"></div>
+<script>
+    const cursor=document.querySelector('.cursor');
+
+document.addEventListner('mousemove', e=>{
+    cursor.setAttribute("style", "top: " +e.pageY+ "px; left: "+e.pageX+"px")
+})
+    </script>
+    <div class="container mainContainer">
         <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+            <div class="col-md-12 text-center">
+                <h1 class="text-center mainHeading">Lorem Ipsum&nbsp;<br><strong>dolor sit amet, consectetur</strong><br></h1><button class="btn btn-danger btn-lg text-center mx-auto mt-3 mainButton" type="button">Learn More</button>
+            </div>
         </div>
     </div>
     <section id="services" class="services indexContainer">
@@ -56,7 +64,7 @@
                 <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="text-center icon-box">
                         <div class="icon"><i class="fab fa-telegram" style="margin-bottom: 15px;"></i>
-                            <h4 class="title">Service 003<a href="#"></a></h4>
+                            <h4 class="title">Service 004</h4>
                             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
                         </div>
                     </div>
@@ -65,7 +73,7 @@
         </div>
     </section>
     <section class="d-flex flex-column justify-content-center align-items-center imageSection indexContainer">
-        <h1 class="text-danger">Heading</h1>
+        <h2 class="text-center text-danger subTopic"><strong><span style="color: rgb(255, 255, 255);">Lorem Ipsum&nbsp;dolor sit amet, consectetur</span></strong><br></h2>
         <p class="text-white">Description</p><a class="btn btn-danger fw-bold" role="button">View More</a>
     </section>
     <div class="container headingContainer mb-5">
@@ -73,9 +81,9 @@
         <p class="text-center text-white-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Short Description</p>
     </div>
     <div class="container indexContainer">
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="text-danger subTopic">Heading</h3>
+        <div class="row blurRow">
+            <div class="col-md-6 d-flex flex-column align-items-end">
+                <h3 class="text-start text-danger subTopic w-75">Heading</h3>
                 <p class="text-white w-75 fs-5 fw-semibold"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper a lacus vestibulum sed arcu non.&nbsp;<br></p>
             </div>
             <div class="col-md-6"><img class="img-fluid whyImage" src="assets/img/Crypto%20portfolio.gif"></div>
@@ -91,10 +99,10 @@
         </div>
     </div>
     <div class="container indexContainer">
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="text-danger subTopic">Heading</h3>
-                <p class="text-white w-75 fs-5 fw-semibold"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper a lacus vestibulum sed arcu non. Erat nam at lectus urna duis convallis convallis tellus.&nbsp;<br></p>
+        <div class="row blurRow">
+            <div class="col-md-6 d-flex flex-column align-items-end">
+                <h3 class="text-end text-danger subTopic w-75">Heading</h3>
+                <p class="text-end text-white w-75 fs-5 fw-semibold"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper a lacus vestibulum sed arcu non. Erat nam at lectus urna duis convallis convallis tellus.&nbsp;<br></p>
             </div>
             <div class="col-md-6"><img class="img-fluid whyImage" src="assets/img/Analytics.gif"></div>
         </div>
@@ -142,12 +150,15 @@
         </div>
     </div>
     <div class="container-fluid bottomContainer"></div>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Bootstrap-Image-Uploader.js"></script>
     <script src="assets/js/count.js"></script>
+    <script src="assets/js/cursor.js"></script>
     <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="assets/js/section.js"></script>
     <script src="assets/js/tel.js"></script>
 </body>
 

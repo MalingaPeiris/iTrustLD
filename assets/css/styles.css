@@ -267,7 +267,7 @@ field input:focus, .field input:valid {
 }
 
 .imageSection {
-  height: 400px;
+  height: 600px;
   width: 100%;
   background: linear-gradient(180deg, #252525, rgba(27,27,27,0.9159420289855073) 44%, rgba(0,0,0,0.7)) center / cover no-repeat fixed, url("../../assets/img/download%20(2).jpg") center / cover no-repeat fixed;
 }
@@ -286,5 +286,59 @@ field input:focus, .field input:valid {
 .bottomContainer {
   background: url("../../assets/img/wave.svg");
   height: 300px;
+}
+
+.mainHeading {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 20%;
+}
+
+.mainContainer {
+  min-height: 80vh;
+  background-image: radial-gradient(circle closest-corner at 40% 38%, rgb(250 73 73 / 35%), #252525 60%);
+}
+
+.blurRow {
+  background-image: radial-gradient(circle closest-corner at 20% 38%, rgb(250 73 73 / 35%), #252525 60%);
+}
+
+.mainSection {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection h1 {
+  position: relative;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+}
+
+.mainSection img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainButton {
+  font-weight: bold;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
 }
 
