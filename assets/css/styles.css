@@ -1,5 +1,6 @@
 body {
   background: #252525;
+  overflow-x: hidden;
 }
 
 .verify-heading {
@@ -33,7 +34,7 @@ body {
 }
 
 field input:focus, .field input:valid {
-  border-color: #D72323;
+  border-color: #d72323;
 }
 
 .field label {
@@ -59,7 +60,7 @@ field input:focus, .field input:valid {
 
 .docVerifyContainer {
   border-radius: 10px;
-  background: rgb(50,50,50);
+  background: rgb(50, 50, 50);
 }
 
 .notVerifyPara {
@@ -101,7 +102,7 @@ field input:focus, .field input:valid {
 }
 
 .nav-item:active {
-  color: var(--bs-red)!important;
+  color: var(--bs-red) !important;
 }
 
 /* LOGIN */
@@ -136,7 +137,7 @@ field input:focus, .field input:valid {
 
 .loginLink:hover {
   text-decoration: none;
-  color: #D72323;
+  color: #d72323;
   font-weight: 500;
 }
 
@@ -146,9 +147,10 @@ field input:focus, .field input:valid {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
-  background: #D72323;
+  background: #d72323;
   margin-top: 20px;
   font-family: Poppins, sans-serif;
+  cursor: pointer;
 }
 
 .loginTermsPara {
@@ -158,7 +160,7 @@ field input:focus, .field input:valid {
 }
 
 .signupSelect {
-  background: rgba(255,255,255,0);
+  background: rgba(255, 255, 255, 0);
   color: gray;
   background: #252525 !important;
   font-family: Poppins, sans-serif;
@@ -189,7 +191,7 @@ field input:focus, .field input:valid {
 
 .deposit-logo-div {
   border-radius: 10px;
-  border: 1px solid var(--bs-gray-700) ;
+  border: 1px solid var(--bs-gray-700);
   margin-top: 15px;
   filter: grayscale(70%);
   transition: 1s;
@@ -203,12 +205,12 @@ field input:focus, .field input:valid {
   filter: grayscale(0%);
   transition: 1s;
   cursor: pointer;
-  transition-delay: .01s;
+  transition-delay: 0.01s;
   background: #393939;
 }
 
 .font {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .depositSelect {
@@ -219,7 +221,7 @@ field input:focus, .field input:valid {
 
 .depositColumn {
   border-radius: 10px;
-  border: 1px solid rgba(220,53,69,0.3) ;
+  border: 1px solid rgba(220, 53, 69, 0.3);
 }
 
 .depositAmount {
@@ -254,6 +256,16 @@ field input:focus, .field input:valid {
   margin-top: 100px;
 }
 
+@media (min-width: 576px) {
+  .whyImage {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    object-fit: contain;
+    transform: scale(.8);
+  }
+}
+
 .whyImage {
   width: 100%;
   height: 600px;
@@ -269,7 +281,13 @@ field input:focus, .field input:valid {
 .imageSection {
   height: 600px;
   width: 100%;
-  background: linear-gradient(180deg, #252525, rgba(27,27,27,0.9159420289855073) 44%, rgba(0,0,0,0.7)) center / cover no-repeat fixed, url("../../assets/img/download%20(2).jpg") center / cover no-repeat fixed;
+  background: linear-gradient( 180deg, #252525, rgba(27, 27, 27, 0.9159420289855073) 44%, rgba(0, 0, 0, 0.7) ) center / cover no-repeat fixed, url("../../assets/img/download%20(2).jpg") center / cover no-repeat fixed;
+}
+
+@media (max-width: 576px) {
+  .indexContainer {
+    margin-top: 40px;
+  }
 }
 
 .indexContainer {
@@ -284,8 +302,174 @@ field input:focus, .field input:valid {
 }
 
 .bottomContainer {
-  background: url("../../assets/img/wave.svg");
+  background: url("../../assets/img/wave.svg") repeat-x;
   height: 300px;
+  background-size: contain;
+}
+
+.mainHeading {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 20%;
+}
+
+@media (max-width: 576px) {
+  .mainHeading {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20%;
+  }
+}
+
+.mainContainer {
+  min-height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), #252525), url("../../assets/img/bg1.jpg") center / cover no-repeat;
+  overflow: hidden;
+}
+
+.blurRow {
+  background-image: radial-gradient( circle closest-corner at 20% 38%, rgb(250 73 73 / 35%), #252525 60% );
+}
+
+.mainSection {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection h1 {
+  position: relative;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+}
+
+.mainSection img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainButton {
+  font-weight: bold;
+}
+
+.mainRow {
+  background: linear-gradient(#c23341 0%, rgba(255, 255, 255, 0) 68%), url("../../assets/img/about_img01.png") center / contain no-repeat;
+  opacity: 0.70;
+}
+
+.dollors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 280px;
+}
+
+.dollors span:nth-child(even) {
+  color: #8f8e8e;
+}
+
+.dollors span {
+  font-weight: bolder;
+  font-size: 36px;
+  color: darkred;
+  animation: animateDollors 15s linear infinite;
+  animation-duration: calc(125s/var(--i));
+}
+
+@keyframes animateDollors {
+  0% {
+    transform: translateY(100vh) scale(0.5);
+  }
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
+}
+
+.mainColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .mainColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40%;
+  }
+}
+
+.dollorContainer {
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 576px) {
+  #whyUp {
+    margin-top: -200px;
+  }
+}
+
+/* Transcation history */
+
+.historyMainDiv {
+  background: #363636;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.transPara {
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.myModal {
+  top: 20%;
+}
+
+@media (max-width: 576px) {
+  .transHeading {
+    font-size: 16px;
+  }
+}
+
+.viewMoreContent {
+  display: none;
+}
+
+.viewMoreContent--show {
+  display: inline;
+}
+
+.viewMoreBtn {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.termsDiv {
+  border-radius: 10px;
+  border: 1px solid rgb(128,130,132) ;
+  height: 200px;
+  overflow-y: scroll;
 }
 
 .mainHeading {

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>iTrustLD</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Account-setting-or-edit-profile.css">
+    <link rel="stylesheet" href="assets/css/animated-services.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Image-Uploader.css">
+    <link rel="stylesheet" href="assets/css/cursor.css">
+    <link rel="stylesheet" href="assets/css/cursor.compiled.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container firstContainer loyaltyContainer font">
+        <div class="row">
+            <div class="col-md-12" style="border-color: rgb(152,152,152);">
+                <h1 class="text-danger fs-2">Forgot Password ?</h1>
+                <p class="text-white-50">To reset your password, enter the Email address that you used to set up your iTrustLD account. We'll sent you a link to help you get back to your account.&nbsp;</p>
+                <hr class="text-danger"><div>
+<div class="field">
+            <input type="text" required />
+            <label>Enter your Email address</label>
+          </div>
+</div><button class="btn btn-danger loginButton w-100" type="button">SEND</button>
+                <div class="d-flex justify-content-center"><a class="loginLink mx-auto" href="login.html">Back</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container firstContainer loyaltyContainer font">
+        <div class="row">
+            <div class="col-md-12" style="border-color: rgb(152,152,152);">
+                <h1 class="text-danger fs-2">Forgot Password ?</h1>
+                <p class="text-white-50">To reset your password, enter a new password and secure your account. Please DO NOT share this password with anyone.</p>
+                <hr class="text-danger"><div>
+<div class="field">
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+</div><div>
+<div class="field">
+            <input type="password" required />
+            <label>Confirm Password</label>
+          </div>
+</div><button class="btn btn-danger loginButton w-100" type="button">RESET PASSWORD</button>
+                <div class="d-flex justify-content-center"></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Bootstrap-Image-Uploader.js"></script>
+    <script src="assets/js/count.js"></script>
+    <script src="assets/js/cursor.js"></script>
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="assets/js/section.js"></script>
+    <script src="assets/js/tel.js"></script>
+</body>
+
+</html>

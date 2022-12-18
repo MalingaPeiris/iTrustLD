@@ -13,12 +13,16 @@
     <link rel="stylesheet" href="assets/css/Account-setting-or-edit-profile.css">
     <link rel="stylesheet" href="assets/css/animated-services.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-Image-Uploader.css">
+    <link rel="stylesheet" href="assets/css/cursor.css">
+    <link rel="stylesheet" href="assets/css/cursor.compiled.css">
     <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
     <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Dark-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
+<<<<<<< HEAD
 <body><div class="cursor"></div>
 <script>
     const cursor=document.querySelector('.cursor');
@@ -31,6 +35,52 @@ document.addEventListner('mousemove', e=>{
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1 class="text-center mainHeading">Lorem Ipsum&nbsp;<br><strong>dolor sit amet, consectetur</strong><br></h1><button class="btn btn-danger btn-lg text-center mx-auto mt-3 mainButton" type="button">Learn More</button>
+=======
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center dollorContainer"><div class="dollors">
+    <span style="--i:11;">$</span>
+    <span style="--i:12;">$</span>
+    <span style="--i:24;">$</span>
+    <span style="--i:10;">$</span>
+    <span style="--i:14;">$</span>
+    <span style="--i:23;">$</span>
+    <span style="--i:18;">$</span>
+    <span style="--i:16;">$</span>
+    <span style="--i:29;">$</span>
+    <span style="--i:20;">$</span>
+    <span style="--i:22;">$</span>
+    <span style="--i:25;">$</span>
+    <span style="--i:18;">$</span>
+    <span style="--i:21;">$</span>
+    <span style="--i:15;">$</span>
+    <span style="--i:13;">$</span>
+    <span style="--i:26;">$</span>
+    <span style="--i:17;">$</span>
+</div></div>  <div class="cursor"></div>
+
+    <script>
+      const cursor = document.querySelector(".cursor");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.setAttribute(
+          "style",
+          "top: " + (e.pageY-10) + "px; left: " + (e.pageX-10) + "px;"
+        );
+      });
+
+      document.addEventListener("click", () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500);
+      })
+    </script>
+    <div class="container-fluid mainContainer">
+        <div class="row mainRow">
+            <div class="col-md-12 text-center mainColumn">
+                <h1 class="text-center mainHeading">Lorem Ipsum&nbsp;<br><strong>dolor sit amet, consectetur</strong><br></h1><button class="btn btn-danger btn-lg text-center mx-auto mt-5 mainButton" type="button">Learn More</button>
+>>>>>>> db2b7d78690e39faebd2349ec090a8497c185976
             </div>
         </div>
     </div>
@@ -82,14 +132,20 @@ document.addEventListner('mousemove', e=>{
     </div>
     <div class="container indexContainer">
         <div class="row blurRow">
+<<<<<<< HEAD
             <div class="col-md-6 d-flex flex-column align-items-end">
                 <h3 class="text-start text-danger subTopic w-75">Heading</h3>
                 <p class="text-white w-75 fs-5 fw-semibold"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper a lacus vestibulum sed arcu non.&nbsp;<br></p>
+=======
+            <div class="col-md-6 d-flex flex-column align-items-end align-items-sm-start align-items-md-start align-items-lg-end align-items-xl-end align-items-xxl-end">
+                <h3 class="text-end text-danger subTopic w-75">Heading</h3>
+                <p class="text-end text-white w-75 fs-5 fw-semibold"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper a lacus vestibulum sed arcu non.&nbsp;<br></p>
+>>>>>>> db2b7d78690e39faebd2349ec090a8497c185976
             </div>
             <div class="col-md-6"><img class="img-fluid whyImage" src="assets/img/Crypto%20portfolio.gif"></div>
         </div>
     </div>
-    <div class="container indexContainer">
+    <div class="container indexContainer" id="whyUp">
         <div class="row">
             <div class="col-md-6"><img class="img-fluid whyImage" src="assets/img/Investment%20data.gif"></div>
             <div class="col-md-6">
@@ -160,6 +216,7 @@ document.addEventListner('mousemove', e=>{
     <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script src="assets/js/section.js"></script>
     <script src="assets/js/tel.js"></script>
+    <script src="assets/js/viewMore.js"></script>
 </body>
 
 </html>
