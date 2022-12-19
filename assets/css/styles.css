@@ -480,3 +480,9 @@ field input:focus, .field input:valid {
   margin-top: 150px;
 }
 
+@media (max-width: 768px) {
+  .scale {
+    transform: scale(.6);
+  }
+}
+
