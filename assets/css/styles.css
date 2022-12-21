@@ -486,3 +486,7 @@ field input:focus, .field input:valid {
   }
 }
 
+#overviewDiv {
+  max-width: 1000px !important;
+}
+
