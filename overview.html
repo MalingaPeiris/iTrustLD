@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/Account-setting-or-edit-profile.css">
     <link rel="stylesheet" href="assets/css/animated-services.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-Image-Uploader.css">
@@ -28,7 +29,7 @@
     <div class="container firstContainer loyaltyContainer font text" id="overviewDiv">
         <div class="row">
             <div class="col-md-12" style="border-color: rgb(152,152,152);">
-                <h1 class="red fs-2 fw-bold">Hi &lt;User&gt;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-patch-check-fill mx-2 text-info fs-5">
+                <h1 class="red fs-2 fw-bold">Welcome &lt;User&gt;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-patch-check-fill mx-2 text-info fs-5">
                         <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                     </svg></h1>
                 <p class="text-white-50">Account Balance:&nbsp;<span class="text-success fw-bold">&nbsp;USD 9999</span><span>&nbsp;(&lt;AccountID&gt;)</span></p>
@@ -60,6 +61,222 @@
         </tbody>
     </table>
 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mt-2"><button class="btn btn-danger btn-lg text-uppercase fw-bold w-100" type="button">DEPOSIT FUNDS</button></div>
+            <div class="col-md-6 mt-2"><button class="btn btn-success btn-lg text-uppercase fw-bold w-100" type="button">WITHDRAW FUNDS</button></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12" style="border-color: rgb(152,152,152);">
+                <hr class="text-danger">
+                <p class="text-white fs-3 fw-bold"><i class="far fa-clock"></i>&nbsp;Recent Activity</p>
+            </div>
+            <div class="col">
+                <div class="historyMainDiv mb-2 viewMoreDiv">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="d-flex flex-column mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-patch-check-fll text-success">
+                                    <path fill-rule="evenodd" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984a.5.5 0 0 0-.708-.708L7 8.793 5.854 7.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"></path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-clock-fill text-warning">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"></path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-dash-circle-fill text-danger">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z"></path>
+                                </svg></div>
+                            <div>
+                                <h5 class="text-white mb-0 transHeading">Transaction ID</h5>
+                                <p class="text-white-50 fs-6 mb-1 transHeading">Transaction Method</p>
+                                <p class="text-white-50 fs-6 mb-1 transHeading">Deposit</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-end red mb-0 fw-bold">$ 9999</h5>
+                            <p class="text-end text-white-50 fs-6 transHeading">22/12/2022&nbsp; 19:30</p>
+                        </div>
+                    </div>
+                    <div class="pr-2 pl-4 viewMoreContent pt-3">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Deposit Amount</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">LKR 999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Received Amount</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">USD 999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction rate</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">LKR 999 / 1 USD</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction Date</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">22/12/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction Time</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">12:30 a.m.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction Method</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">Skrill</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Status</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0 text-success fw-bold">Completed</p>
+                                    <p class="text-end mb-0 text-warning fw-bold">Pending</p>
+                                    <p class="text-end mb-0 text-danger fw-bold">Failed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><span class="text-white-50 fs-7 mt-2 ml-4 viewMoreBtn">View More</span>
+                </div>
+                <div class="historyMainDiv mb-2 viewMoreDiv">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="d-flex flex-column mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-patch-check-fll text-success">
+                                    <path fill-rule="evenodd" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984a.5.5 0 0 0-.708-.708L7 8.793 5.854 7.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"></path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-clock-fill text-warning">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"></path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-dash-circle-fill text-danger">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z"></path>
+                                </svg></div>
+                            <div>
+                                <h5 class="text-white mb-0 transHeading">Transaction ID</h5>
+                                <p class="text-white-50 fs-6 mb-1 transHeading">Transaction Method</p>
+                                <p class="text-white-50 fs-6 mb-1 transHeading">Deposit</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-end mb-0 fw-bold text-success">$ 9999</h5>
+                            <p class="text-end text-white-50 fs-6 transHeading">22/12/2022&nbsp; 19:30</p>
+                        </div>
+                    </div>
+                    <div class="pr-2 pl-4 viewMoreContent pt-3">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Deposit Amount</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">LKR 999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Received Amount</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">USD 999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction rate</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">LKR 999 / 1 USD</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction Date</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">22/12/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction Time</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">12:30 a.m.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Transaction Method</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0">Skrill</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-1">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="text-start transPara fw-bold mb-0">Status</p>
+                                </div>
+                                <div class="transPara">
+                                    <p class="text-end mb-0 text-success fw-bold">Completed</p>
+                                    <p class="text-end mb-0 text-warning fw-bold">Pending</p>
+                                    <p class="text-end mb-0 text-danger fw-bold">Failed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><span class="text-white-50 fs-7 mt-2 ml-4 viewMoreBtn">View More</span>
+                </div>
             </div>
         </div>
     </div>
