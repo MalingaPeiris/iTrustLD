@@ -17,6 +17,22 @@
   }
 }
 
+@media (max-width: 576px) {
+  .navigation-clean .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+    width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigation-clean .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+    width: 250px;
+  }
+}
+
 .navigation-clean .navbar-brand {
   font-weight: bold;
   color: inherit;
